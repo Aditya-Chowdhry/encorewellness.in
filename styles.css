@@ -69,9 +69,15 @@ img {
 }
 
 .brand-logo {
-  height: 52px;
+  height: 36px;
   width: auto;
   display: block;
+}
+
+@media (max-width: 720px) {
+  .brand-logo {
+    height: 30px;
+  }
 }
 
 .nav-links {
